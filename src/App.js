@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import Main from "./components/Main"
 import Sidebar from "./components/Sidebar";
-
+import Expense from "./components/Expense";
 
 class App extends Component {
     render() {
