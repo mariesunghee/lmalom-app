@@ -5,7 +5,7 @@ import './MainStyle.css';
 export default class Main extends Component{
     render(){
         return(
-            <main className="col-lg-10">
+            <main className="app-main">
                 <div id="input" className="border border-light d-flex flex-column flex-sm-row justify-content-around">
                     <button className="btn btn-lg btn-outline-primary" type="button">Expense</button>
                     <button className="btn btn-lg btn-outline-danger" type="button">Income</button>

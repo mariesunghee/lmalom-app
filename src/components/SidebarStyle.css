@@ -1,0 +1,21 @@
+.sidebar {
+    background-color: #c8dbfb;
+}
+
+.sidebar-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-menu > div {
+    width: 100px;
+    padding-left: 8px;
+    text-align: left;
+}
+
+@media all and (max-width: 800px) {
+    .sidebar-menu > div {
+        display: none;
+    }
+}

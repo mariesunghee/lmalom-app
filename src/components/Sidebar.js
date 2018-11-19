@@ -1,19 +1,20 @@
 
 import React, { Component } from 'react';
+import './SidebarStyle.css';
 
 export default class Sidebar extends Component{
     render(){
         return(
-            <nav className="col-md-2 d-md-block">
+            <nav className="sidebar">
                 <ul className="nav flex-column justify-content-start">
-                    <li className="nav-item"><a className="nav-link active" href="#"><i
-                        className="fas fa-home"/> Dashboard</a></li>
-                    <li className="nav-item"><a className="nav-link" href="#"><i
-                        className="fas fa-columns"/> Category</a></li>
-                    <li className="nav-item"><a className="nav-link" href="#"><i
-                        className="fas fa-credit-card"/> Account</a></li>
-                    <li className="nav-item"><a className="nav-link" href="#"><i
-                        className="fas fa-cog"/> Setting</a></li>
+                    <li className="nav-item"><a className="nav-link sidebar-menu active" href="#"><i
+                        className="fas fa-home"/> <div>Dashboard</div></a></li>
+                    <li className="nav-item"><a className="nav-link sidebar-menu" href="#"><i
+                        className="fas fa-columns"/> <div>Category</div></a></li>
+                    <li className="nav-item"><a className="nav-link sidebar-menu" href="#"><i
+                        className="fas fa-credit-card"/><div>Account</div></a></li>
+                    <li className="nav-item"><a className="nav-link sidebar-menu" href="#"><i
+                        className="fas fa-cog"/> <div>Setting</div></a></li>
                 </ul>
             </nav>
         )

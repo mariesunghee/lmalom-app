@@ -7,15 +7,20 @@ import Sidebar from "./components/Sidebar";
 import Expense from "./components/Expense";
 
 class App extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            windowSize: 'sm'
+        };
+    }
+
     render() {
         return (
             <div className="App">
                 <Navbar/>
-                <div className="container-fluid">
-                    <div className="row mt-5 pt-5">
-                        <Sidebar/>
-                        <Main/>
-                    </div>
+                <div className="main-content">
+                    <Sidebar/>
+                    <Main/>
                 </div>
             </div>
         );

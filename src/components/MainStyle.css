@@ -1,11 +1,15 @@
-#input {
-    height: 200px;
+.app-main {
+    flex: 1;
 }
 
-#dailyView{
-    height: 600px;
-}
+/*#input {*/
+    /*height: 200px;*/
+/*}*/
 
-#calendar{
-    height: 300px;
-}
+/*#dailyView{*/
+    /*height: 600px;*/
+/*}*/
+
+/*#calendar{*/
+    /*height: 300px;*/
+/*}*/
