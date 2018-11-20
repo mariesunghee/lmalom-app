@@ -4,7 +4,7 @@ import './NavbarStyle.css';
 export default class Navbar extends Component{
     render(){
         return(
-            <nav className="navbar navbar-expand-md navbar-light fixed-top py-2" id="main-nav">
+            <nav className="navbar navbar-expand-md navbar-light fixed-top py-1" id="main-nav">
                 <div className="container-fluid">
                     <a href="index.html" className="navbar-brand"><h3>Lmalom</h3></a>
                     <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
